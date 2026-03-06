@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyd
+*.bin
+*.cfg
+
+# Distributions and packaging
+.Python
+env/
+venv/
+lib/
+lib64/
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PKG-INFO
+VERSIONS
+.venv
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django Stuff
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Scrapy stuff
+.scrapy
+
+# Specific IDEs and editors
+.idea/  # for PyCharm
+.vscode/ # for VS Code
+*.swp
+.DS_Store # for macOS
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+source_code/
