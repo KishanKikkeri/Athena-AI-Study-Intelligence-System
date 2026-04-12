@@ -1,0 +1,43 @@
+/* ─── Athena Design Tokens ───────────────────────────────────────────────── */
+:root {
+  --bg:       #0b0c10;
+  --surface:  #13151d;
+  --surface2: #1c1f2b;
+  --border:   #272b3a;
+  --accent:   #c8a96e;
+  --accent2:  #7b9fe8;
+  --accent3:  #8ecfb0;
+  --accent4:  #e87b9f;
+  --text:     #e8e4d9;
+  --muted:    #7a7d8e;
+  --danger:   #e87b7b;
+  --radius:   12px;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-mono:    'DM Mono', 'Fira Code', monospace;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+}
+
+/* ─── Reset ──────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+/* ─── Utilities ──────────────────────────────────────────────────────────── */
+.sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); }
+.mono { font-family: var(--font-mono); }
+.muted { color: var(--muted); }
+.accent { color: var(--accent); }
